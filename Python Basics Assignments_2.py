@@ -15,7 +15,7 @@ bool(1)
 
 bool(0)
 
-2. What are the three different types of Boolean operators?
+3. What are the three different types of Boolean operators?
 Ans: AND,OR,NOT3. Make a list of each Boolean operator&#39;s truth tables (i.e. every possible combination of Boolean
 values for the operator and what it evaluate ).
 
@@ -33,9 +33,13 @@ not (5 > 4): False
 (5 > 4) or (3 == 5): True
 not ((5 > 4) or (3 == 5)): False
 (True and True) and (True == False): False
-(not False) or (not True): True5. What are the six comparison operators?
+(not False) or (not True): True
+    
+5. What are the six comparison operators?
 Ans:
->,<,==,>=,<=,!=6. How do you tell the difference between the equal to and assignment operators?Describe a
+>,<,==,>=,<=,!=
+
+6. How do you tell the difference between the equal to and assignment operators?Describe a
 condition and when you would use one.
 Ans:
 
@@ -74,14 +78,34 @@ block 2:
 if spam >5:
     print('bacon')
 block3:
+else:
 print('ham')
 print('spam')
-print('spam')9.If your programme is stuck in an endless loop, what keys you’ll press?
-ans: Ctrl+C10. How can you tell the difference between break and continue?
+print('spam')
+
+8. Write code that prints Hello if 1 is stored in spam, prints Howdy if 2 is stored in spam, and prints
+Greetings! if anything else is stored in spam.
+
+    spam=int(input('enter value: '))
+    if spam==1:
+        print('Hello')
+    elif spam==2:
+        print('Howdy')
+    else:
+        print('Greetings!')
+
+9.If your programme is stuck in an endless loop, what keys you’ll press?
+ans: Ctrl+C
+    
+10. How can you tell the difference between break and continue?
 Ans:
 Break statement breaks out of the current loop
-Continue statement skips the current iteration and moves on to the next one 11. In a for loop, what is the difference between range(10), range(0, 10), and range(0, 10, 1)?
-Ans: No difference. All are same.12. Write a short program that prints the numbers 1 to 10 using a for loop. Then write an equivalent
+Continue statement skips the current iteration and moves on to the next one,
+
+11. In a for loop, what is the difference between range(10), range(0, 10), and range(0, 10, 1)?
+Ans: No difference. All are same.
+    
+12. Write a short program that prints the numbers 1 to 10 using a for loop. Then write an equivalent
 program that prints the numbers 1 to 10 using a while loop. 
 # In[2]:
 
