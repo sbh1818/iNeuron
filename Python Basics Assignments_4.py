@@ -1,7 +1,9 @@
 #!/usr/bin/env python
 # coding: utf-8
 1. What exactly is []?
-Ans: Lists are created in Python using []. So it denotes a list.2. In a list of values stored in a variable called spam, how would you assign the value 'hello'; as the
+Ans: Lists are created in Python using []. So it denotes a list.
+  
+2. In a list of values stored in a variable called spam, how would you assign the value 'hello'; as the
 third value? (Assume [2, 4, 6, 8, 10] are in spam.)
 Ans: 
 # In[1]:
@@ -104,8 +106,12 @@ lis1.remove(3)
 print(lis1)
 
 12. Describe how list values and string values are identical.
-Ans: Both string and list are iterable objects and indexing,slicing can be done in both. Values in both string and list are sequenced. 13. What's the difference between tuples and lists?
-Ans: Tuples are immutable objects. We can not assign values in tuples. Lists are mutable.14. How do you type a tuple value that only contains the integer 42?
+Ans: Both string and list are iterable objects and indexing,slicing can be done in both. Values in both string and list are sequenced. 
+
+13. What's the difference between tuples and lists?
+Ans: Tuples are immutable objects. We can not assign values in tuples. Lists are mutable.
+  
+14. How do you type a tuple value that only contains the integer 42?
 # In[34]:
 
 
