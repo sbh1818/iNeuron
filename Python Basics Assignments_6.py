@@ -9,8 +9,13 @@ s="we live in \"India\""
 print(s)
 
 2. What do the escape characters n and t stand for?
-Ans:/n stands for new lines and \t stands for tabs.3. What is the way to include backslash characters in a string?
-Ans: s="we live in \"India\""4. The string "Howl's Moving Castle" is a correct value. Why isn't the single quote character in the
+Ans:/n stands for new lines and \t stands for tabs.
+  
+3. What is the way to include backslash characters in a string?
+Ans: s="we live in \"India\""
+  
+  
+4. The string "Howl's Moving Castle" is a correct value. Why isn't the single quote character in the
 word Howl's not escaped a problem?
 Ans: Since the string is enclosed in double quotes, single quoted character is not a problem. However, if the string would have been enclosed in single quotes, it would throw a syntax error as below,
 # In[5]:
@@ -73,7 +78,9 @@ print('Remember, remember, the fifth of July'.split())
 print('_'.join('There can only one'.split()))
 
 9. What are the methods for right-justifying, left-justifying, and centering a string?
-Ans: ljust, rjust, center10. What is the best way to remove whitespace characters from the start or end?
+Ans: ljust, rjust, center
+  
+10. What is the best way to remove whitespace characters from the start or end?
 Ans: .strip()
 # In[ ]:
 
