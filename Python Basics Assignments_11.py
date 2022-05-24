@@ -32,16 +32,28 @@ assert 5>6
 #Ans:
 import logging as lg
 logger=lg.getLogger('logger')
-logger.setLevel('debug')5. What are the two lines that your program must have in order to have logging.debug() send a
+logger.setLevel('debug')
+
+5. What are the two lines that your program must have in order to have logging.debug() send a
 logging message to a file named programLog.txt?
 Ans:
 file_handler=lg.FileHandler('programLog.txt')
-logger.addHandler=(file_handler)6. What are the five levels of logging?
-Ans: DEBUG, INFO, WARNING, ERROR and CRITICAL7. What line of code would you add to your software to disable all logging messages?
+logger.addHandler=(file_handler)
+
+6. What are the five levels of logging?
+Ans: DEBUG, INFO, WARNING, ERROR and CRITICAL
+ 
+7. What line of code would you add to your software to disable all logging messages?
 Ans:
-lg.disable(level=50)8.Why is using logging messages better than using print() to display the same message?
+lg.disable(level=50)
+
+8.Why is using logging messages better than using print() to display the same message?
 Ans:
-Logging has several advantages over the print() function. It can log into any files. We can easily disable logs. There are several levels of logging based on severity. print() function does not offer such advantages.9. What are the differences between the Step Over, Step In, and Step Out buttons in the debugger?
-Ans: Not Sure10.After you click Continue, when will the debugger stop ?
+Logging has several advantages over the print() function. It can log into any files. We can easily disable logs. There are several levels of logging based on severity. print() function does not offer such advantages.
+
+9. What are the differences between the Step Over, Step In, and Step Out buttons in the debugger?
+Ans: Not Sure
+  
+10.After you click Continue, when will the debugger stop ?
 Ans: No idea11. What is the concept of a breakpoint?
 Ans: No idea
